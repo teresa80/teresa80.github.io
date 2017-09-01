@@ -1,0 +1,103 @@
+body {
+    background: #ffffff;
+    color: #333333;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.btn-primary {
+  background-color: #818182;
+  border-color: #818182;
+}
+.btn-primary:hover {
+  background-color: #4d4d4e;
+  border-color: #4d4d4e;
+}
+h1{
+  color: #24478f;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  color: #444944;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  color: #24478f;
+  font-weight: lighter;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+a {
+  color: #0000b3;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0000b3;
+}
+.banner-title {
+  padding-top: 150px;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/bannerfoto.jpg");
+  background-size: cover;
+  padding: 0 150px 150px 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#banner a {
+color: white;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter; 
+  color: darkgrey;
+}
+.card{
+  text-align: center;
+  padding: 50px;
+  font-weight: lighter;
+}
+
+.yellowcolor {
+  background: #E8E8E8;
+}
+
+.greycolor {
+  background: #DEE6EF;
+}
+
+#signup{
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 1.5;
+}

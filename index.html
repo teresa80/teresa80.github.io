@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<link href='style.css' rel='stylesheet'>
+	</head>
+
+	<body>
+		<div id="banner">
+			<ul class="nav justify-content-end">
+			  <li class="nav-item">
+			  	<a class="nav-link active" href="#about">About</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#eir">Who</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#destination">Where</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" href="#deal">Details</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" href="#partners">Partners</a>
+			  </li>
+			  <lie class="nav-item">
+
+			  <a href="#signup" class="btn btn-primary" role="button">Join us</a>
+			</ul>
+
+			<div class="banner-title">
+				<h1>Entrepreneurs-in-Residence Initiative</h1>
+				<p>Support entrepreneurs hands-on in startup hubs in six different countries.</p>
+				<p><strong>Join us!<strong></p>
+			</div>  		
+    	</div>
+
+	    <div class="card yellowcolor" id="about">
+	      <h2>What´s the Entrepreneurs-in-Residence Initative?</h2>
+	      <p>
+	      We place internationally experienced and well-connected entrepreneurs/startup supporters in upcoming ecosystems in the Western Balkans, Peru and Vietnam with the goal to support building an entrepreneurial community, the design of programs for startups and thus contribute to foster respective ecosystems for more entrepreneurs to be successful. 
+		  </p>
+	    </div>
+
+	    <div class="card greycolor" id="eir">
+	      <h2>Why do we want you to join?</h2>
+	  	  <ul>
+			<li>You are a founder, executive or investor with experience in building scalable ventures</li>
+			<li>You are pro-active and engaged</li>
+			<li>You are keen to share you knowledge and experiences in supporting startups</li>
+			<li>You can make valuable global connections with international accelerators</li>
+			<li>You have a high degree of community spirit and a passion for entrepreneurship and change.</li>
+			<li>You are interested in supporting to create a business culture in emerging markets. </li>
+		  </ul>	
+	    </div>
+
+	    <div class="card yellowcolor" id="destination">
+	      <h2>What are the destinations for you?</h2>
+	      <p>We are working with the leading startup organizations, innovation hubs and incubators in the following countries: Albania, Bosnia & Herzegovina, Macedonia, Peru, Serbia and Vietnam. So just choose!</p>
+	    </div>
+
+	    <div class="card greycolor" id="deal">      
+	      <h2>What is the deal?</h2>
+	      <p>
+	        <strong>You contribute your time - we take care of the expenses</strong>
+	      </p>
+	      <div class="row">
+	      	<div>
+				If you're interested in giving back to entrepreneurs we will provide:
+				<ul>
+	  				<li>Roundtrip Airfare</li>
+	  				<li>Accommodation</li>
+	  				<li>Logistical and individual support on the ground</li>
+	  				<li>Office space in some of the best working spots at your destination</li>
+				</ul>
+			</div>
+			<div>
+				In return we expect:
+				<ul>
+	  				<li>that you dedicate ~20 hours per week to activley work on  business development with players throughout all levels of the ecosystem.</li>
+	  				
+				The EiR program is pro-bono and we do not pay fees.
+			</div>
+	    	</div>
+	    </div>
+
+	    <div class="card yellowcolor" id="partners">
+	      <h2>Who will you work with?</h2>
+	      <p>Managers of acclerators, incubators and other business support organizations who support local startups to build and sustain their venture.</p>
+	    </div>
+
+		<form action="mailto:teresa.widmer@gmail.com?subject=I want to be an entrepreneur-in-residence" method="post" enctype="text/plain" id="signup">
+
+			<h2>Sign up</h2>
+			<p>Interested to join? Sign up now - we are looking forward to working with you!</p>
+
+			<div class="form-group">
+				<h3><label for="exampleInputyourname">Your Name</label>
+				<input type="name" name="name" class="form-control" id="exampleInputyourname" placeholder="Your Name"></h3>
+	  		</div>
+
+	  		<div class="form-group">
+	    		<h3><label for="exampleInputemail">Your Email</label>
+	    		<input type="email"  name="email" class="form-control" id="exampleInputemail" placeholder="Your Email"></h3>
+	  		</div>
+
+			<div class="form-group">
+	    		<h3><label for="exampleInputlinkedin">Your LinkedIn Profile</label>
+	    		<input type="linkedin" name="linkedin" class="form-control" id="exampleInputlinkedin" placeholder="Your Linkedin Profile"></h3>
+	  		</div>
+
+			<div>
+				<h3><label for="exampleInputcountries">Your preferred countries - please choose as many as you like</label></h3>
+			</div>
+
+			<div>
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="alb"> Albania
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="bih"> Bosnia-Herzegovina
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="mkd"> Macedonia
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="per"> Peru
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="srb"> Serbia
+		  		<input class="checkbox-inline" type="checkbox" name="countries" value="vnm"> Vietnam
+		  	</div>
+
+			<div>
+				<h3><label class="checkbox-inline"
+				for="exampleInputtime">The longest period of time you can dedicate</label></h3>
+				</div>
+			  	<input class="checkbox-inline" type="checkbox" name="time" value="3weeks"> 3 weeks
+			  	<input class="checkbox-inline" type="checkbox" name="time" value="1month"> 1 month
+			  	<input class="checkbox-inline" type="checkbox" name="time" value="2months"> 2 months
+			  	<input class="checkbox-inline" type="checkbox" name="time" value="3months"> 3 months
+			</div>  	
+
+
+			<div class="form-group">
+			    <h3><label for="exampleInputtellusmore">Tell us more why you want to join</label></h3>
+			    <input type="tellusmore" name="more" class="form-control" id="exampleInputtellusmore" placeholder="Tell us more">
+			</div>
+
+
+			<div>
+				<input type="submit" value="Send" class="btn btn-primary">	
+			</div>
+		</form>
+		<div>
+			<p>
+
+				<a href="mailto:teresa.widmer@gmail.com?Subject=Can I get more info about the EIR initiaitve" target="_top">Send Mail</a>
+			</p>
+		</div>
+
+		<div class="card" id="sponsors">
+	      
+	      </p>
+				EIR is an initiative by the Swiss Entrepreneurship Program, funded by the Government of Switzerland and implemented by Swisscontact in consortium with J.E. Austin
+			<div class="row">
+				<div class="col">
+					<img src="images/schweizerbund.png" alt="schweizerbund" width="200">		
+				</div>	
+				<div class="col">
+					<img src="images/swisscontact.png" alt="swisscontact" width="200">		
+				</div>	
+				<div class="col">
+					<img src="images/jaalogo.png" alt="jaalogo" width="200">
+				</div>	
+			</div>
+	    </div>
+
+		<div id="footer">
+	    	
+			<p>© Swiss Entrepreneurship Program 2017</p>
+		</div>
+	</body>
+</html>
+
